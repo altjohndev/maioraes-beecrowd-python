@@ -1,4 +1,4 @@
 a = int(input())
 b = int(input())
-PROD = a * b
-print(f'PROD = {PROD}')
+prod = a * b
+print(f'PROD = {prod}')
