@@ -1,4 +1,4 @@
-name = input()
+input()
 b = float(input())
 c = float(input())
 x = b+(15*c/100)
