@@ -2,10 +2,10 @@ capital = int(input())
 
 print(f'{capital}')
 
-cem = int(capital // 100)
+cem = (capital // 100)
 capital = capital % 100
 
-cinquenta = int(capital // 50)
+cinquenta = (capital // 50)
 capital = capital % 50
 
 vinte = int(capital // 20)
