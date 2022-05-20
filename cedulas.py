@@ -4,6 +4,8 @@ print(f'{capital}')
 
 cem = capital // 100
 capital = capital % 100
+# // representa divisão de numero inteiro
+# % representa o resto da divisão
 
 cinquenta = capital // 50
 capital = capital % 50

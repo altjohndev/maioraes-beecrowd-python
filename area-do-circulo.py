@@ -1,3 +1,6 @@
+# N, R e X representam uma variavel, que são
+# lugares reservados para guardar
+# valores que serão usados mais tarde no programa
 n = 3.14159
 r = float(input())
 
