@@ -21,7 +21,6 @@ dois = int(capital // 2)
 capital = capital % 2
 
 um = int(capital // 1)
-capital = capital % 1
 
 print(f'{cem} nota(s) de R$ 100,00')
 print(f'{cinquenta} nota(s) de R$ 50,00')
