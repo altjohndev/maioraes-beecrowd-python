@@ -18,9 +18,7 @@ cinco = capital // 5
 capital = capital % 5
 
 dois = capital // 2
-capital = capital % 2
-
-um = capital
+um = capital % 2
 
 print(f'{cem} nota(s) de R$ 100,00')
 print(f'{cinquenta} nota(s) de R$ 50,00')
