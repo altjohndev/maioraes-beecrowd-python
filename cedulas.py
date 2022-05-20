@@ -2,25 +2,25 @@ capital = int(input())
 
 print(f'{capital}')
 
-cem = (capital // 100)
+cem = capital // 100
 capital = capital % 100
 
-cinquenta = (capital // 50)
+cinquenta = capital // 50
 capital = capital % 50
 
-vinte = int(capital // 20)
+vinte = capital // 20
 capital = capital % 20
 
-dez = int(capital // 10)
+dez = capital // 10
 capital = capital % 10
 
-cinco = int(capital // 5)
+cinco = capital // 5
 capital = capital % 5
 
-dois = int(capital // 2)
+dois = capital // 2
 capital = capital % 2
 
-um = int(capital // 1)
+um = capital
 
 print(f'{cem} nota(s) de R$ 100,00')
 print(f'{cinquenta} nota(s) de R$ 50,00')
