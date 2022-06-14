@@ -34,8 +34,3 @@ if salario > 2000.00:
   r = (salario / 100) * 4
   print(f'Reajuste ganho: {r:.2f}')
   print('Em percentual: 4 %')
-
-
-# c = 800.01
-# d = 1200.01
-# e = 2000.00
