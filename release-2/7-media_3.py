@@ -7,24 +7,24 @@ n4 = float(nota[3])
 
 media = ((n1 * 2) + (n2 * 3) + (n3 * 4) + (n4 * 1)) / 10
 
-print(f'Media: {media:.1f}')
+print(f"Media: {media:.1f}")
 
 if media < 5:
-  print('Aluno reprovado.')
+    print("Aluno reprovado.")
 elif media >= 7:
-  print('Aluno aprovado.')
+    print("Aluno aprovado.")
 else:
-  print('Aluno em exame.')
+    print("Aluno em exame.")
 
-  ne = float(input())
+    ne = float(input())
 
-  print(f'Nota do exame: {ne:.1f}')
+    print(f"Nota do exame: {ne:.1f}")
 
-  mf = (media + ne) / 2
+    mf = (media + ne) / 2
 
-  if mf >= 5:
-    print('Aluno aprovado.')
-  else:
-    print('Aluno reprovado.')
+    if mf >= 5:
+        print("Aluno aprovado.")
+    else:
+        print("Aluno reprovado.")
 
-  print(f'Media final: {mf:.1f}')
+    print(f"Media final: {mf:.1f}")

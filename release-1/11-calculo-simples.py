@@ -10,4 +10,4 @@ f = float(line[2])
 
 x = (b * c) + (e * f)
 
-print(f'VALOR A PAGAR: R$ {x:.2f}')
+print(f"VALOR A PAGAR: R$ {x:.2f}")

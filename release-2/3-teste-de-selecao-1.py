@@ -12,9 +12,9 @@ aceito = aceito and d > 0
 aceito = aceito and (a % 2) == 0
 
 if aceito:
-  print('Valores aceitos')
+    print("Valores aceitos")
 else:
-  print('Valores nao aceitos')
+    print("Valores nao aceitos")
 
 
 # b>c d>a c+d>a+b c d positivos a par

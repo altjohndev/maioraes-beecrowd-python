@@ -6,4 +6,4 @@ segundos = segundos % 3600
 minutos = segundos // 60
 segundos = segundos % 60
 
-print(f'{hora}:{minutos}:{segundos}')
+print(f"{hora}:{minutos}:{segundos}")
