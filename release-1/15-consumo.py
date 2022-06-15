@@ -3,4 +3,4 @@ combustivel = float(input())
 
 consumo = distancia / combustivel
 
-print(f'{consumo:.3f} km/l')
+print(f"{consumo:.3f} km/l")

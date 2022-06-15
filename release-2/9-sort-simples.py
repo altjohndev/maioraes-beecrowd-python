@@ -9,36 +9,36 @@ meio = None
 menor = None
 
 if n1 > n2:
-  if n2 > n3:
-    maior = n1
-    meio = n2
-    menor = n3
-  else:
-    menor = n2
-    if n1 > n3:
-      maior = n1
-      meio = n3
+    if n2 > n3:
+        maior = n1
+        meio = n2
+        menor = n3
     else:
-      maior = n3
-      meio = n1
+        menor = n2
+        if n1 > n3:
+            maior = n1
+            meio = n3
+        else:
+            maior = n3
+            meio = n1
 else:
-  if n2 > n3:
-    maior = n2
-    if n1 > n3:
-      meio = n1
-      menor = n3
+    if n2 > n3:
+        maior = n2
+        if n1 > n3:
+            meio = n1
+            menor = n3
+        else:
+            meio = n3
+            menor = n1
     else:
-      meio = n3
-      menor = n1
-  else:
-    maior = n3
-    meio = n2
-    menor = n1
+        maior = n3
+        meio = n2
+        menor = n1
 
 print(menor)
 print(meio)
 print(maior)
-print('')
+print("")
 print(n1)
 print(n2)
 print(n3)
