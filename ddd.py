@@ -1,6 +1,4 @@
-n = int(input())
-
-ddd = n
+ddd = int(input())
 
 if ddd == 61:
   print('Brasilia')
