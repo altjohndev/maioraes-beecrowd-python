@@ -1,6 +1,6 @@
 capital = int(input())
 
-print(f'{capital}')
+print(f"{capital}")
 
 cem = capital // 100
 capital = capital % 100
@@ -22,10 +22,10 @@ capital = capital % 5
 dois = capital // 2
 um = capital % 2
 
-print(f'{cem} nota(s) de R$ 100,00')
-print(f'{cinquenta} nota(s) de R$ 50,00')
-print(f'{vinte} nota(s) de R$ 20,00')
-print(f'{dez} nota(s) de R$ 10,00')
-print(f'{cinco} nota(s) de R$ 5,00')
-print(f'{dois} nota(s) de R$ 2,00')
-print(f'{um} nota(s) de R$ 1,00')
+print(f"{cem} nota(s) de R$ 100,00")
+print(f"{cinquenta} nota(s) de R$ 50,00")
+print(f"{vinte} nota(s) de R$ 20,00")
+print(f"{dez} nota(s) de R$ 10,00")
+print(f"{cinco} nota(s) de R$ 5,00")
+print(f"{dois} nota(s) de R$ 2,00")
+print(f"{um} nota(s) de R$ 1,00")
